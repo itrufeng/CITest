@@ -10,18 +10,40 @@
 
 @interface ViewController ()
 
+@property (assign, nonatomic) BOOL pass;
+
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    _pass = NO;
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+}
+
+- (void)setupUI {
+    NSLog(@"setupUI");
+    [self setupLayout];
+}
+
+- (void)setupLayout {
+    NSLog(@"setupLayout");
+    _pass = YES;
+}
+
+- (BOOL)doIt {
+    return YES;
+}
+
+- (NSNumber *)hehe {
+    if ([self doIt]) {
+        return @YES;
+    }
+    return @NO;
 }
 
 @end

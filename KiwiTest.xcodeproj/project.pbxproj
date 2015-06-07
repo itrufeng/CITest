@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		139461245829549EC9186F1C /* libPods-KiwiTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D61B0F680FD7999F806B0C0 /* libPods-KiwiTestTests.a */; };
 		74364AC01AECD64E00D80067 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74364ABF1AECD64E00D80067 /* main.m */; };
 		74364AC31AECD64E00D80067 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74364AC21AECD64E00D80067 /* AppDelegate.m */; };
 		74364AC61AECD64E00D80067 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74364AC51AECD64E00D80067 /* ViewController.m */; };
 		74364AC91AECD64E00D80067 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74364AC71AECD64E00D80067 /* Main.storyboard */; };
 		74364ACB1AECD64E00D80067 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74364ACA1AECD64E00D80067 /* Images.xcassets */; };
 		74364ACE1AECD64E00D80067 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74364ACC1AECD64E00D80067 /* LaunchScreen.xib */; };
-		74364ADA1AECD64E00D80067 /* KiwiTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74364AD91AECD64E00D80067 /* KiwiTestTests.m */; };
+		74364ADA1AECD64E00D80067 /* ViewControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 74364AD91AECD64E00D80067 /* ViewControllerTest.m */; };
+		74364AE31AECEE3B00D80067 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74364AC51AECD64E00D80067 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		42B5B29F24C5EDA60C726C2C /* Pods-KiwiTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KiwiTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KiwiTestTests/Pods-KiwiTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		4D61B0F680FD7999F806B0C0 /* libPods-KiwiTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KiwiTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74364ABA1AECD64E00D80067 /* KiwiTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KiwiTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74364ABE1AECD64E00D80067 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74364ABF1AECD64E00D80067 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -39,7 +43,8 @@
 		74364ACD1AECD64E00D80067 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		74364AD31AECD64E00D80067 /* KiwiTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KiwiTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74364AD81AECD64E00D80067 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		74364AD91AECD64E00D80067 /* KiwiTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KiwiTestTests.m; sourceTree = "<group>"; };
+		74364AD91AECD64E00D80067 /* ViewControllerTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTest.m; sourceTree = "<group>"; };
+		83E896174D3E783510C44758 /* Pods-KiwiTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KiwiTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KiwiTestTests/Pods-KiwiTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				139461245829549EC9186F1C /* libPods-KiwiTestTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +72,8 @@
 				74364ABC1AECD64E00D80067 /* KiwiTest */,
 				74364AD61AECD64E00D80067 /* KiwiTestTests */,
 				74364ABB1AECD64E00D80067 /* Products */,
+				F47500A2A7F1443B16502E29 /* Pods */,
+				77D6791BACA08151002BD2A5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,7 +113,7 @@
 		74364AD61AECD64E00D80067 /* KiwiTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				74364AD91AECD64E00D80067 /* KiwiTestTests.m */,
+				74364AD91AECD64E00D80067 /* ViewControllerTest.m */,
 				74364AD71AECD64E00D80067 /* Supporting Files */,
 			);
 			path = KiwiTestTests;
@@ -117,6 +125,23 @@
 				74364AD81AECD64E00D80067 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77D6791BACA08151002BD2A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D61B0F680FD7999F806B0C0 /* libPods-KiwiTestTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F47500A2A7F1443B16502E29 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83E896174D3E783510C44758 /* Pods-KiwiTestTests.debug.xcconfig */,
+				42B5B29F24C5EDA60C726C2C /* Pods-KiwiTestTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,9 +168,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74364AE01AECD64E00D80067 /* Build configuration list for PBXNativeTarget "KiwiTestTests" */;
 			buildPhases = (
+				DA51C8DCF326C82F794F7D1F /* Check Pods Manifest.lock */,
 				74364ACF1AECD64E00D80067 /* Sources */,
 				74364AD01AECD64E00D80067 /* Frameworks */,
 				74364AD11AECD64E00D80067 /* Resources */,
+				053261E8919CE41E594E0739 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,6 +241,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		053261E8919CE41E594E0739 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KiwiTestTests/Pods-KiwiTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA51C8DCF326C82F794F7D1F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		74364AB61AECD64E00D80067 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -229,7 +289,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74364ADA1AECD64E00D80067 /* KiwiTestTests.m in Sources */,
+				74364AE31AECEE3B00D80067 /* ViewController.m in Sources */,
+				74364ADA1AECD64E00D80067 /* ViewControllerTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +426,7 @@
 		};
 		74364AE11AECD64E00D80067 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83E896174D3E783510C44758 /* Pods-KiwiTestTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -384,6 +446,7 @@
 		};
 		74364AE21AECD64E00D80067 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42B5B29F24C5EDA60C726C2C /* Pods-KiwiTestTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -416,6 +479,7 @@
 				74364ADF1AECD64E00D80067 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74364AE01AECD64E00D80067 /* Build configuration list for PBXNativeTarget "KiwiTestTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +488,7 @@
 				74364AE21AECD64E00D80067 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

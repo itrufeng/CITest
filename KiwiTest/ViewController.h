@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
-
+- (void)setupUI;
+- (void)setupLayout;
+- (NSNumber *)hehe;
 @end
 
