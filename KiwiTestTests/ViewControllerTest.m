@@ -24,8 +24,8 @@ describe(@"ViewController", ^{
     });
     
     it(@"Doit", ^{
-        [viewController stub:NSSelectorFromString(@"doIt") andReturn:@NO];
-        [[[viewController hehe] should] equal:@NO];
+        [viewController stub:NSSelectorFromString(@"doIt") andReturn:theValue(NO)];
+        [[[viewController hehe] should] equal:theValue(NO)];
     });
 });
 

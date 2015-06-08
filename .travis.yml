@@ -1,0 +1,7 @@
+language: objective-c
+xcode_workspace: KiwiTest.xcworkspace
+xcode_scheme: KiwiTest
+xcode_sdk: iphonesimulator
+
+before_install
+  - pod install
